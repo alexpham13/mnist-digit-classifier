@@ -1,0 +1,8 @@
+# Versions observed working together in the existing Python 3.12 environment.
+# A separate clean installation has not yet been verified.
+numpy==2.5.4
+scikit-learn==1.9.1
+matplotlib==3.11.2
+joblib==1.6.0
+pillow==13.0.0
+scipy==1.18.1

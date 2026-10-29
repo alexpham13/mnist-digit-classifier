@@ -1,0 +1,48 @@
+# Local virtual environment
+.venv/
+venv/
+env/
+.env/
+.virtualenv/
+
+# Python bytecode and cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+
+# Downloaded datasets (the script caches MNIST in data/)
+data/
+datasets/
+scikit_learn_data/
+
+# Generated trained models
+models/
+release_packages/
+*.joblib
+*.pkl
+*.pickle
+
+# Locally collected handwriting and labels
+collected_examples/
+
+# Local secrets and credentials (keep shareable example configuration files)
+.env
+.env.*
+!.env.example
+!.env.template
+.aws/
+secrets/
+credentials.json
+token.json
+*.pem
+*.key
+
+# Operating-system files
+.DS_Store
+Thumbs.db
